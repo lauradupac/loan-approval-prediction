@@ -46,7 +46,7 @@ The report assesses whether machine learning can outperform traditional economet
 | `bank_assets_value` | Int | X11i | Assets of applicant in bank |
 | `loan_status` | Categorical | y | Binary outcome variable of loan approval or rejection: 'Approved' or 'Rejected' |
 
-The dataset is publicly available on Kaggle and titled **Loan-Approval-Prediction-Dataset**: [kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset?select=loan_approval_dataset.csv)
+The dataset is publicly available on Kaggle and titled **Loan-Approval-Prediction-Dataset**: [kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset?select=loan_approval_dataset.csv) The dataset is provided under the MIT License. The dataset is 3rd party material, but the analysis and code in this repository are my own.
 
 It has 4,269 observations corresponding to the number of loan applicants and 12 predictor variables. The identifier variable `loan_id` was removed prior to training the model as it contains no predictive information. The 13th variable is the target variable defined as `loan_status`, which depicts whether the applicant has been 'approved' or 'rejected' for a loan. The data is split into an 80% training group and 20% test group before training begins.
 
